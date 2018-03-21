@@ -47,6 +47,9 @@ Icon
 *.apk
 *.ap_
 
+# NDK CMAKE
+.externalNativeBuild/
+
 # Files for ART and Dalvik VM
 *.dex
 
