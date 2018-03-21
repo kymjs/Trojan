@@ -6,3 +6,17 @@
 0	776	0	CMakeFiles/trojan-lib.dir/src/main/cpp/trojan-lib.cpp.o	b91c18f4ba0e70f3
 0	854	0	CMakeFiles/trojan-lib.dir/src/main/cpp/LogWriter.cpp.o	a1c29aeae177b3ca
 854	1253	0	../../../../build/intermediates/cmake/release/obj/mips/libtrojan-lib.so	4609613d0a50b17b
+1	77	0	CMakeFiles/trojan-lib.dir/src/main/cpp/ErrInfo.cpp.o	875ad3c84775a044
+8	272	0	CMakeFiles/trojan-lib.dir/src/main/cpp/tea/base64.cpp.o	71a6f5d3b4486fbc
+1	303	0	CMakeFiles/trojan-lib.dir/src/main/cpp/JNIHelp.cpp.o	96a47ca2090ce0ca
+3	410	0	CMakeFiles/trojan-lib.dir/src/main/cpp/tea/TEACipher.cpp.o	3647120ef34e7d14
+0	607	0	CMakeFiles/trojan-lib.dir/src/main/cpp/trojan-lib.cpp.o	b91c18f4ba0e70f3
+0	693	0	CMakeFiles/trojan-lib.dir/src/main/cpp/LogWriter.cpp.o	a1c29aeae177b3ca
+693	922	0	../../../../build/intermediates/cmake/release/obj/mips/libtrojan-lib.so	4609613d0a50b17b
+2	75	0	CMakeFiles/trojan-lib.dir/src/main/cpp/ErrInfo.cpp.o	875ad3c84775a044
+6	284	0	CMakeFiles/trojan-lib.dir/src/main/cpp/tea/base64.cpp.o	71a6f5d3b4486fbc
+4	317	0	CMakeFiles/trojan-lib.dir/src/main/cpp/JNIHelp.cpp.o	96a47ca2090ce0ca
+5	415	0	CMakeFiles/trojan-lib.dir/src/main/cpp/tea/TEACipher.cpp.o	3647120ef34e7d14
+0	609	0	CMakeFiles/trojan-lib.dir/src/main/cpp/trojan-lib.cpp.o	b91c18f4ba0e70f3
+1	679	0	CMakeFiles/trojan-lib.dir/src/main/cpp/LogWriter.cpp.o	a1c29aeae177b3ca
+679	905	0	../../../../build/intermediates/cmake/release/obj/mips/libtrojan-lib.so	4609613d0a50b17b

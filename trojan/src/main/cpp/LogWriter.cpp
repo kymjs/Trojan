@@ -5,6 +5,7 @@
 #include "ErrInfo.h"
 #include <iostream>
 #include <sys/file.h>
+#include <unistd.h>
 
 LogWriter::LogWriter() {
     this->cipherStart = strlen(CIPHER_START);
@@ -18,7 +19,7 @@ ErrInfo *LogWriter::initMmap(JNIEnv *env, std::string basicInfo, std::string log
     // add the suffix '-mmap', to make a distinction from common IO
     this->filePath = logDir + "/" + buildDate + "-mmap";
 
-    this->fd = open(filePath.c_str(), O_RDWR | O_CREAT, (mode_t) 0600);
+    this->fd = open(filePath.c_str(), O_RDWR | O_CREAT | O_APPEND, (mode_t) 0600);
 
     if (fd == -1) {
         return new ErrInfo(OPEN_EXIT, "Error opening file");
@@ -46,6 +47,10 @@ ErrInfo *LogWriter::initMmap(JNIEnv *env, std::string basicInfo, std::string log
             close(fd);
             return new ErrInfo(LSEEK_EXIT, "Error when calling ftruncate() to stretch the file");
         }
+
+        //prevent abnormal stopping to cause the file not to close, ftruncate failure
+        char lastChar[]=".";
+        write(fd, lastChar, sizeof(lastChar));
 
         fileSize += increaseSize;
 
