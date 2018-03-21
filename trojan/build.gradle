@@ -24,7 +24,6 @@ android {
         targetSdkVersion 23
         versionCode trojan_version_code
         versionName "$trojan_version"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
             cmake {

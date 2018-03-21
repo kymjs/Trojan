@@ -1,0 +1,68 @@
+
+{
+	"buildFiles" : [ "/Users/apple/code/git/Trojan/trojan/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/apple/developer/android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"trojan-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "trojan-lib",
+			"buildCommand" : "/Users/apple/developer/android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a --target trojan-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-arm  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/trojan-lib.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-arm  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/LogWriter.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-arm  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/ErrInfo.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-arm  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/JNIHelp.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-arm  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/tea/TEACipher.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-arm  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/tea/base64.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/apple/code/git/Trojan/trojan/build/intermediates/cmake/debug/obj/armeabi-v7a/libtrojan-lib.so",
+			"toolchain" : "5866094693357009113"
+		}
+	},
+	"toolchains" : 
+	{
+		"5866094693357009113" : 
+		{
+			"cCompilerExecutable" : "/Users/apple/developer/android/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/apple/developer/android/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

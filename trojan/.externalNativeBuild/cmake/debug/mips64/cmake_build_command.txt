@@ -1,0 +1,15 @@
+Executable : /Users/apple/developer/android/sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/Users/apple/code/git/Trojan/trojan
+-B/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/debug/mips64
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=mips64
+-DANDROID_NDK=/Users/apple/developer/android/android-ndk-r14b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/apple/code/git/Trojan/trojan/build/intermediates/cmake/debug/obj/mips64
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/Users/apple/developer/android/sdk/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/apple/developer/android/android-ndk-r14b/build/cmake/android.toolchain.cmake
+-DANDROID_PLATFORM=android-21
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+jvmArgs : 
+

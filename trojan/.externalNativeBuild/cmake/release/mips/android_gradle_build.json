@@ -1,0 +1,68 @@
+
+{
+	"buildFiles" : [ "/Users/apple/code/git/Trojan/trojan/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/apple/developer/android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"trojan-lib-Release-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "trojan-lib",
+			"buildCommand" : "/Users/apple/developer/android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips --target trojan-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-mips  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/trojan-lib.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-mips  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/LogWriter.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-mips  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/ErrInfo.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-mips  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/JNIHelp.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-mips  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/tea/TEACipher.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/apple/developer/android/android-ndk-r14b/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/apple/developer/android/android-ndk-r14b/platforms/android-14/arch-mips  -Dtrojan_lib_EXPORTS -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/apple/developer/android/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/apple/code/git/Trojan/trojan/src/main/cpp/tea/base64.cpp",
+					"workingDirectory" : "/Users/apple/code/git/Trojan/trojan/.externalNativeBuild/cmake/release/mips"
+				}
+			],
+			"output" : "/Users/apple/code/git/Trojan/trojan/build/intermediates/cmake/release/obj/mips/libtrojan-lib.so",
+			"toolchain" : "5866094693357009113"
+		}
+	},
+	"toolchains" : 
+	{
+		"5866094693357009113" : 
+		{
+			"cCompilerExecutable" : "/Users/apple/developer/android/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/apple/developer/android/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
