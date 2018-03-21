@@ -1,0 +1,8 @@
+# ninja log v5
+1	114	0	CMakeFiles/trojan-lib.dir/src/main/cpp/ErrInfo.cpp.o	d0419efe6d255111
+5	237	0	CMakeFiles/trojan-lib.dir/src/main/cpp/tea/base64.cpp.o	48cc3836b0f626b7
+2	292	0	CMakeFiles/trojan-lib.dir/src/main/cpp/JNIHelp.cpp.o	aa35b1988a685ef7
+4	350	0	CMakeFiles/trojan-lib.dir/src/main/cpp/tea/TEACipher.cpp.o	e47709525f472054
+0	744	0	CMakeFiles/trojan-lib.dir/src/main/cpp/trojan-lib.cpp.o	382d660d6e202262
+1	876	0	CMakeFiles/trojan-lib.dir/src/main/cpp/LogWriter.cpp.o	e55f6746d6f84271
+876	1083	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libtrojan-lib.so	27bf5f724b2530ab

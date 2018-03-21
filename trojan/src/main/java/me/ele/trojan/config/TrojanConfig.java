@@ -80,7 +80,7 @@ public final class TrojanConfig {
             if (null == context) {
                 throw new IllegalArgumentException("context == null");
             }
-            this.context = context;
+            this.context = context.getApplicationContext();
         }
 
         public Builder userInfo(String userInfo) {
